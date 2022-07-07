@@ -4,11 +4,15 @@
       <md-cell-item title="普通条目" />
       <md-cell-item title="动作条目" arrow @click="onClick" />
       <md-cell-item title="禁用条目" disabled no-border/>
+      <md-cell-item>
+          <div>
+      </md-cell-item/>
     </md-field>
   </div>
 </template>
 
-<script>import {Field, CellItem, Dialog, Icon} from 'mand-mobile'
+<script>
+import {Field, CellItem, Dialog, Icon} from 'mand-mobile'
 
 export default {
   name: 'cell-item-demo',
@@ -33,4 +37,5 @@ export default {
     },
   },
 }
-</script>
+
+</script>
